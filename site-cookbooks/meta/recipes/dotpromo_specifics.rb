@@ -1,6 +1,7 @@
 include_recipe "sprout-osx-apps::jumpcut"
 include_recipe "sprout-osx-apps::pg_admin"
 include_recipe "sprout-osx-apps::zsh"
+include_recipe "pivotal_workstation::remove_garageband"
 include_recipe "pivotal_workstation::oh_my_zsh"
 include_recipe "pivotal_workstation::ack"
 include_recipe "pivotal_workstation::coreutils"
